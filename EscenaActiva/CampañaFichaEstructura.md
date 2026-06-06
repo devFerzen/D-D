@@ -1,0 +1,1 @@
+## Para contexto global y seguimiento.
