@@ -1,1 +1,0 @@
-ideas como sonido y distancia.

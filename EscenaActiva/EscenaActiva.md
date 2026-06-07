@@ -1,1 +1,0 @@
-## Para dirigir lo que está pasando ahora.
