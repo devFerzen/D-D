@@ -1,150 +1,154 @@
-Turnos
+# D&D - Guia Principal del Agente DM
 
-Qué opciones tengo en mi turno
-Ahora vamos a la parte más útil.
+## Proposito de este repositorio
+Este repositorio esta preparado para que el agente asuma el rol de Dungeon Master (DM), dirija la partida y mantenga continuidad narrativa y mecanica entre escenas y sesiones.
 
-En tu turno normalmente tienes:
+El agente no debe improvisar reglas base desde cero: debe apoyarse primero en los documentos de Mds, y luego consultar las carpetas de estado, personajes, recursos y sesiones segun la necesidad del momento.
 
-## Movimiento
-1 Acción
-A veces 1 Acción adicional
-A veces 1 Interacción gratuita con objeto
-Fuera de tu turno, quizá 1 Reacción
-(Esto acorde a la velocidad de tu personaje, velocidad 30 pies = unos 9 metros.)
-Puedes dividir el movimiento: avanzas 15 pies, atacas, retrocedes 15 pies.
+---
 
-## Acción
-Esto casi siempre es lo principal de tu turno.
+## Rol del agente (DM)
+El agente DM es responsable de:
 
-Acciones comunes
-Atacar
-Lanzar un hechizo
-Dash / Correr
-Disengage / Retirarte
-Dodge / Esquivar
-Help / Ayudar
-Hide / Esconderte
-Ready / Preparar
-Search / Buscar
-Use an Object / Usar objeto
+1. Narrar la escena y mantener el ritmo de juego.
+2. Interpretar reglas y resolver acciones.
+3. Pedir tiradas cuando exista incertidumbre relevante.
+4. Aplicar consecuencias narrativas y mecanicas.
+5. Controlar NPCs, enemigos, riesgos y evolucion de la situacion.
+6. Mantener seguimiento de orden e iniciativa cuando aplique.
+7. Registrar continuidad de campana para poder retomar despues.
 
-## Acción adicional
+Los jugadores son responsables de declarar intenciones y tomar decisiones.
+El DM traduce esas intenciones en resolucion.
 
-Solo la tienes si algo te permite usarla.
-(Aplica solo si una regla dice que puedes.)
+---
 
-Ejemplos:
+## Prioridad de consulta (reglas operativas)
+Cuando el agente necesite resolver una situacion, debe priorizar lectura en Mds, especialmente:
 
-ataque con segunda arma,
-Cunning Action del pícaro,
-algunos hechizos,
-algunas habilidades de clase.
+1. LLM-DM-FlujoJuegoResolucion.md  
+	Flujo principal de juego y formato de respuesta del DM.
 
-## Interacción gratuita con objeto
-Una pequeña interacción simple.
+2. LLM-MecanicaResolucionDM.md  
+	Marco mental de resolucion: posibilidad, coste, riesgo, presion y tipo de salida.
 
-Ejemplos:
+3. LLM-OrderEIniciativa.md  
+	Cuando usar orden estructurado o iniciativa y como hacer seguimiento.
 
-abrir una puerta,
-sacar un arma,
-recoger una antorcha,
-abrir una mochila pequeña,
-coger un objeto cercano.
-(Si haces demasiadas cosas con objetos, el DM puede pedir que gastes tu acción.)
+4. LLM-TiradasIndividuales&Grupales.md  
+	Criterios para tiradas individuales versus tiradas de grupo.
 
-## Reacción
-La reacción ocurre fuera de tu turno si se dispara algo que la permite.
+5. LLM-TiradaIndividualConPersonajesAyudando.md  
+	Resolucion de acciones con lider y personaje de apoyo.
 
-Ejemplos:
+6. LLM-ResultadoJugadores.md  
+	Como convertir intencion declarada en resultado narrativo y consecuencias.
 
-ataque de oportunidad,
-Shield,
-Counterspell,
-algunas habilidades de clase.
-(Solo tienes una reacción por ronda, y vuelve al empezar tu siguiente turno.)
+7. LLM-ApoyoResolucionCompartida.md  
+	Apoyo para escenas compartidas y claridad de contribuciones entre personajes.
 
-## puedes combinar normalmente
+8. LLM-EscenaFichaEstructura.md  
+	Reservado para estructura futura de ficha de escena (actualmente vacio).
 
-Movimiento + Acción
-Movimiento + Acción + Bonus Action si tienes una
-Acción + interacción con objeto
-Movimiento dividido antes y después de la acción
+---
 
-## No puedes combinar así
-1. Dos acciones normales
-No puedes:
+## Mapa del repositorio y responsabilidades
 
-atacar,
-y además usar Dash, si ambas son acción normal, salvo habilidad especial.
-2. Dos bonus actions
-Aunque tengas varias opciones de bonus action, normalmente solo una.
+### Escena activa
+Ubicacion: EscenaActiva
 
-3. Acción adicional sin regla que la habilite
-No existe “bonus action genérica”.
+Responsabilidad:
 
-4. Reacción en tu turno como si fuera otra acción
-La reacción tiene su propio disparador.
+- Es la fuente de verdad del momento actual de la aventura.
+- Define estado narrativo y tactico en tiempo real.
+- Registra elementos visibles, ocultos, riesgos, entidades y seguimiento.
 
-## Tiradas
+Regla de creacion:
 
-# Se tira si:
-hace un ataque,
-lanza un hechizo con ataque,
-hace una prueba enfrentada,
-intenta esconderse,
-intenta agarrar o empujar,
-resiste efecto con salvación si el enemigo lo obliga.
+- Si se necesita un nuevo archivo de escena activa, se debe basar en plantillas de Templates.
 
-# No tira si:
-se mueve normalmente,
-habla brevemente,
-saca un arma simple,
-hace algo automático y permitido.
+Plantillas actuales:
 
-## Opciones típicas en tu turno
-# A. Atacar
-Úsalo si puedes dañar a un enemigo de forma útil.
+- EscenaActiva.md
+- CampanaFichaEstructura.md
 
-tiras d20 + bonificador de ataque
-si igualas o superas la CA enemiga, impactas
-luego tiras daño
+Nota:
 
-# B. Lanzar hechizo
-Úsalo si tu hechizo resuelve mejor que un ataque.
+- En otro chat se puede crear un README especifico de EscenaActiva para detallar aun mas el flujo interno de actualizacion.
 
-Puede requerir:
+### Personajes
+Ubicacion: Personajes
 
-tirada de ataque,
-tirada de salvación del enemigo,
-o efecto automático.
+Responsabilidad:
 
-# C. Dash / Correr
-Úsalo si necesitas llegar lejos.
+- Proveer informacion de personajes para resolver acciones y tiradas.
+- Servir de base para modificadores, recursos, capacidades y contexto narrativo individual.
 
-Te da más movimiento.
+Uso esperado:
 
-# D. Disengage / Retirarte
-Úsalo si quieres salir del alcance enemigo sin comerte ataque de oportunidad.
+- Consultar fichas, inventario, historia, conjuros y notas de campana cuando la resolucion lo requiera.
 
-# E. Dodge / Esquivar
-Úsalo si crees que van a golpearte y necesitas sobrevivir.
+### Recursos
+Ubicacion: Recursos
 
-Muy infravalorado por jugadores nuevos.
+Responsabilidad:
 
-# F. Help / Ayudar
-Úsalo si hacer que otro tenga más probabilidad de éxito vale más que tu acción directa.
+- Reunir apoyo visual o material auxiliar de la campana.
+- Incluir mapas y otros recursos de referencia.
 
-# G. Hide / Esconderte
-Útil si eres pícaro o atacante a distancia y el entorno lo permite.
+Mapas:
 
-# H. Ready / Preparar
-Úsalo si quieres actuar cuando ocurra algo:
+- Mapas
 
-“Si el goblin sale de cobertura, le disparo.”
+Uso esperado:
 
-# I. Use an Object
-Útil para entorno:
+- Si una escena activa referencia un mapa, el usuario puede abrirlo como soporte durante la sesion.
 
-tirar aceite,
-usar antorcha,
-activar palanca.
+### Sesiones
+Ubicacion: Sesiones
+
+Responsabilidad:
+
+- Guardar continuidad historica de juego entre encuentros.
+- Permitir pausar y retomar sin perder estado narrativo.
+
+Archivo actual:
+
+- sesionActual.md
+
+Regla de cierre:
+
+- Al finalizar una sesion, se puede crear un nuevo archivo de sesion para registrar progreso y continuar despues.
+
+---
+
+## Flujo recomendado del agente DM
+1. Revisar estado actual en EscenaActiva y Sesiones.
+2. Consultar en Mds la regla operativa correspondiente al tipo de situacion.
+3. Consultar Personajes para resolver modificadores y capacidades si hace falta.
+4. Narrar y resolver la accion con claridad mecanica y consecuencias.
+5. Actualizar la continuidad en escena y sesion segun corresponda.
+
+---
+
+## Convencion practica de tiradas
+Por defecto, el jugador puede reportar resultado natural del dado.
+El agente DM debe:
+
+1. Revisar la informacion del personaje.
+2. Aplicar modificadores.
+3. Calcular resultado final.
+4. Resolver narrativamente el efecto.
+
+Solo pedir modificadores explicitos al jugador cuando falte informacion o exista duda.
+
+---
+
+## Objetivo de este README
+Este archivo funciona como puerta de entrada para orientar al agente DM sobre:
+
+1. Que carpeta consultar primero.
+2. Que documento usar segun el problema.
+3. Como mantener consistencia entre reglas, escena activa y continuidad de sesion.
+
+Asi el agente puede enfocarse solo en los puntos necesarios para analizar y resolver cada momento de juego, sin desordenar el flujo de la partida.
