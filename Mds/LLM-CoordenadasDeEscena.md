@@ -4,6 +4,8 @@
 
 El DM debe usar la matriz del mapa como sistema principal para ubicar personajes, enemigos, trampas, objetos interactuables y zonas importantes.
 
+Este sistema se aplica cuando la escena ya fue inicializada con el protocolo de `LLM-EscenaFichaEstructura.md`.
+
 La referencia oficial usa coordenadas tipo:
 
 * Letras en el eje vertical: A-U.
@@ -78,7 +80,7 @@ Formato recomendado:
 - Baltharax: E12
 - Tatanius: F10
 - Mejek: J08
-- Kaez: oculto en H14
+- Keco: oculto en H14
 
 ### Enemigos
 - Goblin 1: C09

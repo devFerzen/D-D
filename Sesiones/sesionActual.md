@@ -34,7 +34,7 @@ Eventos:
 
 ----------------------------------------
 
-KEAZ (Pícaro Asesino Lv3)
+KECO (Pícaro Asesino Lv3)
 HP: 21/21
 
 Eventos:
@@ -124,7 +124,7 @@ Estado:
 ----------------------------------------
 
 Gema Azul Rúnica
-Poseedor: Keaz
+Poseedor: Keco
 
 Estado:
 - Sin identificar completamente.

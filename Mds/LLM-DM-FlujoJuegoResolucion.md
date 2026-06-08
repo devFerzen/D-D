@@ -1,5 +1,7 @@
 # DM Instructions - Flujo de Juego y Resolución de Acciones
 
+Antes de usar este flujo en una escena nueva, el DM debe aplicar primero `LLM-EscenaFichaEstructura.md` para dejar lista la informacion minima de EscenaActiva y CampanaFichaEstructura.
+
 ## Objetivo
 
 El DM es responsable de:
@@ -425,7 +427,7 @@ Detectar amenazas antes de avanzar.
 
 Tiran:
 
-* Kaez → Perception (Wisdom)
+* Keco → Perception (Wisdom)
 * Mejek → Perception (Wisdom)
 
 ## 5. Opciones de Aprendizaje

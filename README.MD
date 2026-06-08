@@ -51,7 +51,7 @@ Cuando el agente necesite resolver una situacion, debe priorizar lectura en Mds,
 	Apoyo para escenas compartidas y claridad de contribuciones entre personajes.
 
 9. LLM-EscenaFichaEstructura.md  
-	Reservado para estructura futura de ficha de escena (actualmente vacio).
+	Protocolo operativo de arranque: crear y llenar EscenaActiva y CampanaFichaEstructura antes de narrar.
 
 ---
 
@@ -127,11 +127,12 @@ Regla de cierre:
 
 ## Flujo recomendado del agente DM
 1. Revisar estado actual en EscenaActiva y Sesiones.
-2. Consultar en Mds la regla operativa correspondiente al tipo de situacion.
+2. Aplicar LLM-EscenaFichaEstructura.md para crear/actualizar EscenaActiva y CampanaFichaEstructura antes de iniciar narracion.
+3. Consultar en Mds la regla operativa correspondiente al tipo de situacion.
 	Si hay mapa, distancia o posicion tactica, consultar LLM-CoordenadasDeEscena.md.
-3. Consultar Personajes para resolver modificadores y capacidades si hace falta.
-4. Narrar y resolver la accion con claridad mecanica y consecuencias.
-5. Actualizar la continuidad en escena y sesion segun corresponda.
+4. Consultar Personajes para resolver modificadores y capacidades si hace falta.
+5. Narrar y resolver la accion con claridad mecanica y consecuencias.
+6. Actualizar la continuidad en escena y sesion segun corresponda.
 
 ---
 
