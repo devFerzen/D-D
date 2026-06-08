@@ -425,7 +425,7 @@ Detectar amenazas antes de avanzar.
 
 Tiran:
 
-* Keaz → Perception (Wisdom)
+* Kaez → Perception (Wisdom)
 * Mejek → Perception (Wisdom)
 
 ## 5. Opciones de Aprendizaje

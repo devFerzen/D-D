@@ -45,7 +45,7 @@ Si la escena requiere saber **quién actúa primero, quién está mejor posicion
 
 Esto no solo sirve para combate. También puede servir en escenas tensas, persecuciones, infiltraciones críticas o situaciones donde el turno de cada personaje importa de verdad.
 
-**Para la informacion de orden ver la carpeta /EscenaActiva o su LLM-OrdenEIniciativa.md
+**Para informacion de orden ver la carpeta /EscenaActiva o su LLM-OrderEIniciativa.md. Para posicion, distancia y alcance en mapa, ver LLM-CoordenadasDeEscena.md.**
 ---
 
 ### 4. Decide el tipo de resolución
@@ -178,7 +178,7 @@ Si la escena es grupal pero el método no es realmente el mismo para todos, conv
 
 “Ahora mismo no todos están haciendo lo mismo. El DM recorre cada jugador ya sea se resuelve por separado, personaje por personaje.”
 
-“Sí se necesita orden de actuación porque importa quién se mueve primero y desde qué posición. Primero pedir que tiren iniciativa; el resultado se guarda dentro del folder /EscenaActiva ver su LLM para mayor informacion.”
+“Sí se necesita orden de actuación porque importa quién se mueve primero y desde qué posición. Primero pedir que tiren iniciativa; el resultado se guarda dentro del folder /EscenaActiva. Si hay mapa, registra coordenadas segun LLM-CoordenadasDeEscena.md.”
 
 ---
 

@@ -68,7 +68,7 @@ El DM debería dejar documentado, como mínimo:
 - nombre del personaje,
 - iniciativa u orden,
 - nombre del mapa en escena activa que se encuentra en /Recursos/Mapas
-- posición o lugar relevante,
+- posición o lugar relevante (usar coordenada tipo E12 cuando aplique mapa, ver LLM-CoordenadasDeEscena.md),
 - intención actual,
 - si ya actuó o sigue pendiente,
 - notas breves de estado.
@@ -89,8 +89,8 @@ Esto permite consultar rápidamente quién sigue sin reconstruir la escena desde
 
 ## Orden de actuación
 1. Nombre — iniciativa — posición — intención
-2. Nombre — iniciativa — posición — intención
-3. Nombre — iniciativa — posición — intención
+2. Nombre — iniciativa — posición/coordenada — intención
+3. Nombre — iniciativa — posición/coordenada — intención
 
 ## Seguimiento
 - Ya actuaron:

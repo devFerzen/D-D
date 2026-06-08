@@ -12,7 +12,7 @@ El jugador describe:
 
 - **qué quiere lograr**
 - **cómo intenta hacerlo**
-- **desde dónde o en qué condiciones lo hace**
+- **desde dónde o en qué condiciones lo hace** (si hay mapa, registrar coordenada)
 
 ### Ejemplo
 > “Quiero mirar debajo de la cama y dentro del cofre sin tocar nada sospechoso.”
@@ -27,6 +27,7 @@ El DM revisa estas preguntas:
 - ¿La acción se puede hacer físicamente?
 - ¿El personaje está en posición para hacerlo?
 - ¿Tiene sentido en la ficción?
+- Si hay mapa: ¿la coordenada/alcance lo permite? (ver LLM-CoordenadasDeEscena.md)
 
 ### B. ¿Hay incertidumbre?
 - ¿Existe una posibilidad real de fallar?

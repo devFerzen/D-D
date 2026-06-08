@@ -35,19 +35,22 @@ Cuando el agente necesite resolver una situacion, debe priorizar lectura en Mds,
 3. LLM-OrderEIniciativa.md  
 	Cuando usar orden estructurado o iniciativa y como hacer seguimiento.
 
-4. LLM-TiradasIndividuales&Grupales.md  
+4. LLM-CoordenadasDeEscena.md  
+	Sistema de coordenadas para posicion, distancia, cobertura, trampas y rango tactico.
+
+5. LLM-TiradasIndividuales&Grupales.md  
 	Criterios para tiradas individuales versus tiradas de grupo.
 
-5. LLM-TiradaIndividualConPersonajesAyudando.md  
+6. LLM-TiradaIndividualConPersonajesAyudando.md  
 	Resolucion de acciones con lider y personaje de apoyo.
 
-6. LLM-ResultadoJugadores.md  
+7. LLM-ResultadoJugadores.md  
 	Como convertir intencion declarada en resultado narrativo y consecuencias.
 
-7. LLM-ApoyoResolucionCompartida.md  
+8. LLM-ApoyoResolucionCompartida.md  
 	Apoyo para escenas compartidas y claridad de contribuciones entre personajes.
 
-8. LLM-EscenaFichaEstructura.md  
+9. LLM-EscenaFichaEstructura.md  
 	Reservado para estructura futura de ficha de escena (actualmente vacio).
 
 ---
@@ -125,6 +128,7 @@ Regla de cierre:
 ## Flujo recomendado del agente DM
 1. Revisar estado actual en EscenaActiva y Sesiones.
 2. Consultar en Mds la regla operativa correspondiente al tipo de situacion.
+	Si hay mapa, distancia o posicion tactica, consultar LLM-CoordenadasDeEscena.md.
 3. Consultar Personajes para resolver modificadores y capacidades si hace falta.
 4. Narrar y resolver la accion con claridad mecanica y consecuencias.
 5. Actualizar la continuidad en escena y sesion segun corresponda.

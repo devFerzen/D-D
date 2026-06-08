@@ -4,22 +4,54 @@
 
 El DM debe usar la matriz del mapa como sistema principal para ubicar personajes, enemigos, trampas, objetos interactuables y zonas importantes.
 
-La escena usa coordenadas tipo:
+La referencia oficial usa coordenadas tipo:
 
-* Letras en el eje vertical: A, B, C, D, E...
-* Números en el eje horizontal: 1, 2, 3, 4, 5...
+* Letras en el eje vertical: A-U.
+* Numeros en el eje horizontal: 01-25.
 * Cada cuadro representa 2 metros.
 
 Ejemplo de posición:
 
 * Baltharax está en E12.
-* Una trampa está en H8.
-* Un cofre está en K4.
+* Una trampa está en H08.
+* Un cofre está en K04.
 * Un enemigo está en C15.
 
 ---
 
 # Reglas de Uso de Coordenadas
+
+## Regla global de matriz estandar
+
+Todos los mapas tacticos deben usar la misma matriz base:
+
+* Eje vertical: A-U (21 filas).
+* Eje horizontal: 01-25 (25 columnas).
+* Escala fija: 1 cuadro = 2 metros.
+
+Formato canonico de coordenada:
+
+* Una letra + dos digitos.
+* Ejemplos validos: A01, B14, F08, U25.
+* Ejemplos invalidos: A1, A2, AA01, V01, A26.
+
+Limite oficial del mapa estandar:
+
+* Esquina superior izquierda: A01
+* Esquina superior derecha: A25
+* Esquina inferior izquierda: U01
+* Esquina inferior derecha: U25
+
+## Excepcion por escena (override permitido)
+
+Si una escena necesita rebasar el limite oficial, se permite hacerlo solo si queda declarado de forma explicita en el archivo de escena activa.
+
+Reglas de la excepcion:
+
+1. Debe declararse el rango extendido de filas y/o columnas en la escena activa.
+2. Debe mantenerse la misma escala: 1 cuadro = 2 metros.
+3. Debe mantenerse el mismo formato canonico (letra + dos digitos).
+4. Si la escena no declara excepcion, se aplica automaticamente la matriz estandar A-U y 01-25.
 
 ## 1. Toda entidad importante debe tener coordenada
 
@@ -45,22 +77,27 @@ Formato recomendado:
 ### Jugadores
 - Baltharax: E12
 - Tatanius: F10
-- Mejek: J8
-- Keaz: oculto en H14
+- Mejek: J08
+- Kaez: oculto en H14
 
 ### Enemigos
-- Goblin 1: C9
+- Goblin 1: C09
 - Goblin 2: D11
 
 ### Objetos interactuables
 - Puerta azul sellada: A12-A15
-- Cofre antiguo: K5
-- Altar roto: D8
+- Cofre antiguo: K05
+- Altar roto: D08
 
 ### Trampas o peligros
 - Trampa de presión: G10
-- Zona de escombros difícil: H6-H9
+- Zona de escombros difícil: H06-H09
 ```
+
+Para consistencia tactica, preferir siempre dos digitos en columnas:
+
+* E12 ya cumple el formato canonico por tener dos digitos.
+* Para columnas de un digito usar cero a la izquierda: H08, K04, C09.
 
 ---
 
@@ -115,8 +152,12 @@ Ejemplo privado para el DM:
 
 - Trampa de lanza: H12
 - Símbolo mágico oculto: B14
-- Compartimento secreto: K3
+- Compartimento secreto: K03
 ```
+
+Formato recomendado:
+
+* H12, B14 y K03.
 
 Cuando un jugador se acerque o investigue, el DM puede pedir tirada.
 
@@ -146,6 +187,13 @@ Cada escena debe tener este bloque:
 
 ## Escala
 Cada cuadro = 2 metros.
+
+## Matriz estandar
+Filas A-U, columnas 01-25.
+
+## Excepcion de limites (solo si aplica)
+- Limite estandar aplicado: si/no
+- Si no: [definir filas y columnas extendidas]
 
 ## Posiciones actuales
 
@@ -203,3 +251,10 @@ Ejemplo narrativo:
 Ejemplo táctico:
 
 “Baltharax se mueve de E12 a C13, quedando a 2 cuadros de la puerta azul.”
+
+## Checklist rapido al crear escena
+
+1. Confirmar si usa matriz estandar (A-U, 01-25) o excepcion declarada.
+2. Mantener escala fija de 2 metros por cuadro.
+3. Registrar coordenadas de criaturas, objetos clave y peligros.
+4. Separar coordenadas visibles para jugadores y coordenadas ocultas del DM.

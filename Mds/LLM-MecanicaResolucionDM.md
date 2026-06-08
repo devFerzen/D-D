@@ -11,6 +11,8 @@ Primero debe validar la ficci처n, medir coste, evaluar riesgo, revisar la presi�
 
 La funci처n del DM no es bloquear por defecto ni aprobar todo por impulso. Su funci처n es **traducir la ficci처n del mundo en una resoluci처n clara, consistente y jugable**.
 
+Si la escena usa mapa, el DM debe verificar posicion y distancia con LLM-CoordenadasDeEscena.md antes de resolver alcance, cobertura o activacion de trampas por movimiento.
+
 ---
 
 ## Flujo mental del DM paso a paso

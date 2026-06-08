@@ -9,6 +9,21 @@
 
 ---
 
+## Sistema de Coordenadas de la Escena
+- **Escala fija:** 1 cuadro = 2 metros
+- **Formato canónico de coordenada:** letra + dos dígitos (ejemplo: A01, H08, U25)
+- **Límite estándar aplicado:** sí / no
+- **Si no aplica límite estándar, definir override:**
+  - **Filas habilitadas:** 
+  - **Columnas habilitadas:** 
+  - **Motivo narrativo o táctico del override:** 
+
+Notas:
+- Si no se declara override, usar matriz estándar (filas A-U y columnas 01-25).
+- Mantener siempre el formato con dos dígitos en columnas de un solo número (01-09).
+
+---
+
 ## Capa Visible
 Elementos que los jugadores pueden percibir sin tirada al entrar o al observar normalmente.
 
