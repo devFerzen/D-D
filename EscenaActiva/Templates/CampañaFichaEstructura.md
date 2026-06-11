@@ -8,6 +8,31 @@
 
 ---
 
+## Control macro narrativo de campaña
+Este bloque mantiene foco en la historia principal sin perder subtramas útiles.
+
+- **Arco principal activo:** 
+  - **Estado actual:** 
+  - **Próximo hito esperado:** 
+  - **Referencia de soporte:** `Sesiones/sesionActual.md`
+
+- **Subarcos activos:** 
+  - **Subarco:** 
+  - **Estado:** latente / activo / pausado / resuelto
+  - **Dependencia con arco principal:** alta / media / baja
+  - **Referencia de soporte:** `Sesiones/sesionActual.md` o `Personajes/<Nombre>/notas-campaña.md`
+
+- **Balance canon / desvío (editable):**
+  - **Nivel objetivo de desvío:** bajo / medio / alto
+  - **Nivel real observado en sesión:** bajo / medio / alto
+  - **Ajuste para próxima escena:** mantener / reconducir al canon / abrir desvío controlado
+
+- **Regla global de retorno al foco principal:** 
+  - **Disparador de reconducción:** 
+  - **Máximo de escenas laterales antes de volver al foco:** 
+
+---
+
 ## Estado global del grupo
 - **Objetivo actual del grupo:** 
 - **Momento del día:** mañana / tarde / noche / madrugada
@@ -64,6 +89,46 @@ Información relevante que enlaza escenas o ayuda al DM a recordar el progreso r
   - **Viene de la escena:** 
   - **Apunta hacia:** 
   - **Estado:** 
+
+---
+
+## Resumen de avance narrativo de la sesión guardada
+Síntesis para retomar campaña sin releer todo.
+
+### Avances mayores de sesión
+- **Pieza de historia:** 
+  - **Qué avanzó:** 
+  - **Impacto para próxima escena:** 
+  - **Referencia de sesión:** `Sesiones/sesionActual.md` o archivo de sesión correspondiente
+
+- **Pieza de historia:** 
+  - **Qué avanzó:** 
+  - **Impacto para próxima escena:** 
+  - **Referencia de sesión:** 
+
+### Avances menores o pendientes
+- **Pieza de historia:** 
+  - **Estado pendiente:** 
+  - **Riesgo de olvido:** 
+  - **Acción de reenganche sugerida:** 
+  - **Referencia de sesión:** `Sesiones/sesionActual.md` o archivo de sesión correspondiente
+
+- **Pieza de historia:** 
+  - **Estado pendiente:** 
+  - **Riesgo de olvido:** 
+  - **Acción de reenganche sugerida:** 
+  - **Referencia de sesión:** 
+
+### Semillas narrativas para retomarlas después
+- **Semilla:** 
+  - **Estado:** sembrada / visible / activa / resuelta
+  - **Cuándo retomarla:** próxima escena / próximo capítulo / oportunidad situacional
+  - **Referencia de sesión:** `Sesiones/sesionActual.md` o archivo de sesión correspondiente
+
+- **Semilla:** 
+  - **Estado:** 
+  - **Cuándo retomarla:** 
+  - **Referencia de sesión:** 
 
 ---
 

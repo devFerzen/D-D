@@ -50,7 +50,21 @@ No se inicia narracion nueva si no existe una escena activa documentada y una fi
 - Cargar personajes en escena con informacion sintetica tomada de `Personajes/`.
 - Registrar posicion en escena e iniciativa cuando aplique.
 
-### Paso 4. Decidir si aplica sistema de coordenadas
+### Paso 4. Validar control narrativo antes de narrar
+
+Antes de pasar a coordenadas o apertura de escena, dejar explicitados en `EscenaActiva`:
+
+- proposito dramatico de escena,
+- pregunta dramatica de escena,
+- entrada clara de escena,
+- avance de arco claro,
+- salida clara de escena,
+- limite de expansion lateral,
+- regla de retorno al hilo principal.
+
+Regla: si falta cualquiera de esos puntos, no inicia narracion.
+
+### Paso 5. Decidir si aplica sistema de coordenadas
 
 Aplicar `11-CoordenadasTacticas.md` cuando:
 
@@ -60,16 +74,29 @@ Aplicar `11-CoordenadasTacticas.md` cuando:
 
 Si no aplica coordenada, dejarlo explicitado en la escena y resolver por ficcion.
 
-### Paso 5. Preparar mapa para jugadores y capa privada del DM
+### Paso 6. Preparar mapa para jugadores y capa privada del DM
 
 - Mapa para jugadores: limpio, sin secretos marcados.
 - Datos privados del DM: ubicacion real de trampas, items ocultos, rutas secretas y enemigos ocultos en el archivo de escena activa.
 
 Regla: el mapa visible no debe revelar informacion oculta que los jugadores aun no descubren.
 
-### Paso 6. Iniciar narracion
+### Paso 7. Iniciar narracion
 
 Solo despues de completar los pasos anteriores, el DM inicia la narracion de apertura de escena.
+
+---
+
+## Regla de trazabilidad y no duplicacion
+
+Para evitar ruido y mantenimiento pesado:
+
+- `EscenaActiva` guarda estado operativo de la escena actual.
+- `CampanaFichaEstructura` guarda el control macro de arcos y balance canon/desvio.
+- `Sesiones/` guarda la continuidad cronologica de lo ocurrido.
+- `Personajes/` guarda evolucion individual y notas persistentes.
+
+Cuando un dato ya exista en otro archivo, no copiar texto largo: usar referencia al archivo origen.
 
 ---
 
@@ -97,4 +124,6 @@ El prompt final para jugadores debe mantener:
 3. Personajes en escena cargados desde `Personajes/`.
 4. Coordenadas definidas si la escena las necesita.
 5. Separacion clara entre informacion visible de jugadores y datos ocultos del DM.
-6. Narracion iniciada solo despues del registro minimo.
+6. Control narrativo validado: entrada clara, avance de arco y salida clara.
+7. Limite de expansion lateral y regla de retorno al foco principal definidos.
+8. Narracion iniciada solo despues del registro minimo.

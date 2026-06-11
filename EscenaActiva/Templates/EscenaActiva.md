@@ -9,6 +9,25 @@
 
 ---
 
+## Control narrativo de escena (obligatorio)
+Este bloque evita narrativa infinita y fuerza cierre de escena.
+
+- **Propósito dramático de escena:** 
+- **Pregunta dramática de escena:** 
+- **Entrada clara de escena (disparador):** 
+- **Avance de arco claro (qué debe avanzar sí o sí):** 
+- **Salida clara de escena (condición de cierre):** 
+  - **Tipo de cierre principal:** objetivo cumplido / reloj de presión / híbrido
+  - **Condición concreta de cierre:** 
+- **Límite de expansión lateral permitido:** bajo / medio / alto
+- **Regla de retorno al hilo principal:** 
+  - **Disparador de retorno:** 
+  - **Tiempo máximo antes de reconducir:** 
+- **Referencia de arco principal en ficha global:** 
+  - `EscenaActiva/CampañaFichaEstructura.md` sección de arco principal
+
+---
+
 ## Sistema de Coordenadas de la Escena
 - **Escala fija:** 1 cuadro = 2 metros
 - **Formato canónico de coordenada:** letra + dos dígitos (ejemplo: A01, H08, U25)
@@ -210,6 +229,50 @@ Lista breve de reglas o tiradas que el DM probablemente usará aquí.
   - **Uso común en esta escena:** 
 - **Mecánica:** iniciativa / cobertura / terreno difícil / herramientas / magia
   - **Uso común en esta escena:** 
+
+---
+
+## Trazabilidad narrativa de la escena
+Registro operativo para saber qué avanzó, qué quedó pendiente y cómo retomarlo.
+
+### Piezas de historia con mayor avance en esta escena
+- **Pieza de historia:** 
+  - **Tipo:** canon principal / subtrama / personal de personaje
+  - **Evidencia de avance en escena:** 
+  - **Estado al cierre:** abierta / parcial / resuelta
+  - **Referencia de continuidad:** `Sesiones/sesionActual.md` o archivo de sesión correspondiente
+
+- **Pieza de historia:** 
+  - **Tipo:** 
+  - **Evidencia de avance en escena:** 
+  - **Estado al cierre:** 
+  - **Referencia de continuidad:** 
+
+### Piezas de historia con menor avance o estancadas
+- **Pieza de historia:** 
+  - **Causa del bajo avance:** 
+  - **Riesgo narrativo si se ignora:** 
+  - **Acción sugerida para retomarla:** 
+  - **Referencia de continuidad:** `Sesiones/sesionActual.md` o archivo de sesión correspondiente
+
+- **Pieza de historia:** 
+  - **Causa del bajo avance:** 
+  - **Riesgo narrativo si se ignora:** 
+  - **Acción sugerida para retomarla:** 
+  - **Referencia de continuidad:** 
+
+### Interacción de personajes con piezas narrativas
+- **Mayor interacción:**
+  - **Personaje:** 
+  - **Pieza de historia:** 
+  - **Impacto en escena:** 
+  - **Referencia en personaje:** `Personajes/<Nombre>/notas-campaña.md`
+
+- **Menor interacción (oportunidad de mejora):**
+  - **Personaje:** 
+  - **Pieza potencial relevante:** 
+  - **Gancho sugerido para próxima escena:** 
+  - **Referencia en personaje:** `Personajes/<Nombre>/notas-campaña.md`
 
 
 ## Notas breves para improvisación del DM
