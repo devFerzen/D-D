@@ -7,179 +7,52 @@ El agente no debe improvisar reglas base desde cero: debe apoyarse primero en lo
 
 ---
 
-## Rol del agente (DM)
-El agente DM es responsable de:
-
-1. Narrar la escena y mantener el ritmo de juego.
-2. Interpretar reglas y resolver acciones.
-3. Pedir tiradas cuando exista incertidumbre relevante.
-4. Aplicar consecuencias narrativas y mecanicas.
-5. Controlar NPCs, enemigos, riesgos y evolucion de la situacion.
-6. Mantener seguimiento de orden e iniciativa cuando aplique.
-7. Registrar continuidad de campana para poder retomar despues.
-
-Los jugadores son responsables de declarar intenciones y tomar decisiones.
-El DM traduce esas intenciones en resolucion.
-
----
-
 ## Prioridad de consulta (reglas operativas)
-Cuando el agente necesite resolver una situacion, debe priorizar lectura en Mds, especialmente:
+Cuando el agente necesite resolver una situacion, usar este orden:
 
-1. LLM-DM-FlujoJuegoResolucion.md  
-	Flujo principal de juego y formato de respuesta del DM.
-
-2. LLM-MecanicaResolucionDM.md  
-	Marco mental de resolucion: posibilidad, coste, riesgo, presion y tipo de salida.
-
-3. LLM-OrdenEIniciativa.md  
-	Cuando usar orden estructurado o iniciativa y como hacer seguimiento.
-
-4. LLM-CoordenadasDeEscena.md  
-	Sistema de coordenadas para posicion, distancia, cobertura, trampas y rango tactico.
-
-5. LLM-TiradasIndividualesYGrupales.md  
-	Criterios para tiradas individuales versus tiradas de grupo.
-
-6. LLM-TiradaIndividualConPersonajesAyudando.md  
-	Resolucion de acciones con lider y personaje de apoyo.
-
-7. LLM-ResultadoJugadores.md  
-	Como convertir intencion declarada en resultado narrativo y consecuencias.
-
-8. LLM-MecanicaResolucionPvP.md  
-	Reglas para conflicto entre jugadores, acciones enfrentadas y escalado a combate PvP.
-
-9. LLM-EscenaFichaEstructura.md  
-	Protocolo operativo de arranque: crear y llenar EscenaActiva y CampanaFichaEstructura antes de narrar.
+1. LLM-PuntosFijos.md
+2. LLM-DM-FlujoJuegoResolucion.md
+3. LLM-MecanicaResolucionDM.md
+4. LLM-OrdenEIniciativa.md
+5. LLM-CoordenadasDeEscena.md
+6. LLM-TiradasIndividualesYGrupales.md
+7. LLM-TiradaIndividualConPersonajesAyudando.md
+8. LLM-ResultadoJugadores.md
+9. LLM-MecanicaResolucionPvP.md
+10. LLM-EscenaFichaEstructura.md
 
 ---
 
 ## Si buscas X, abre Y (atajo rapido)
 
-- Si buscas el flujo general del DM y formato de resolucion, abre `LLM-DM-FlujoJuegoResolucion.md`.
-- Si buscas la mecanica base para decidir posible/imposible, coste, riesgo y presion, abre `LLM-MecanicaResolucionDM.md`.
-- Si buscas cuando usar orden estructurado o iniciativa, abre `LLM-OrdenEIniciativa.md`.
-- Si buscas coordenadas, distancias, cobertura o mapa tactico, abre `LLM-CoordenadasDeEscena.md`.
-- Si buscas criterio para tiradas individuales o de grupo, abre `LLM-TiradasIndividualesYGrupales.md`.
-- Si buscas acciones con lider y personaje de apoyo, abre `LLM-TiradaIndividualConPersonajesAyudando.md`.
-- Si buscas como convertir intencion en resultado narrativo y consecuencias, abre `LLM-ResultadoJugadores.md`.
-- Si buscas conflicto entre jugadores y escalado a PvP, abre `LLM-MecanicaResolucionPvP.md`.
-- Si buscas protocolo de arranque de escena y ficha de campana, abre `LLM-EscenaFichaEstructura.md`.
+- Base canonica de reglas cortas (PF): `LLM-PuntosFijos.md`.
+- Flujo general del DM y formato de salida: `LLM-DM-FlujoJuegoResolucion.md`.
+- Decision base de accion: `LLM-MecanicaResolucionDM.md`.
+- Orden e iniciativa: `LLM-OrdenEIniciativa.md`.
+- Coordenadas y mapa tactico: `LLM-CoordenadasDeEscena.md`.
+- Individual vs grupal: `LLM-TiradasIndividualesYGrupales.md`.
+- Lider y apoyo: `LLM-TiradaIndividualConPersonajesAyudando.md`.
+- Resultado y consecuencias: `LLM-ResultadoJugadores.md`.
+- Conflicto entre jugadores (PvP): `LLM-MecanicaResolucionPvP.md`.
+- Pre-arranque de escena y ficha: `LLM-EscenaFichaEstructura.md`.
 
 ---
 
 ## Regla de precedencia entre LLM
 
-Para evitar solapamientos, usar esta prioridad cuando dos documentos parezcan cubrir lo mismo:
+Si hay conflicto entre redacciones:
 
-1. Mecánica base de resolución: `LLM-MecanicaResolucionDM.md`.
-2. Interpretación de resultados y consecuencias: `LLM-ResultadoJugadores.md`.
-3. Flujo general y formato de respuesta del DM: `LLM-DM-FlujoJuegoResolucion.md`.
-
-Si hay conflicto entre redacciones, prevalece el documento de mayor prioridad en esta lista.
-
----
-
-## Mapa del repositorio y responsabilidades
-
-### Escena activa
-Ubicacion: EscenaActiva
-
-Responsabilidad:
-
-- Es la fuente de verdad del momento actual de la aventura.
-- Define estado narrativo y tactico en tiempo real.
-- Registra elementos visibles, ocultos, riesgos, entidades y seguimiento.
-
-Regla de creacion:
-
-- Si se necesita un nuevo archivo de escena activa, se debe basar en plantillas de Templates.
-
-Plantillas actuales:
-
-- EscenaActiva.md
-- CampanaFichaEstructura.md
-
-Nota:
-
-- En otro chat se puede crear un README especifico de EscenaActiva para detallar aun mas el flujo interno de actualizacion.
-
-### Personajes
-Ubicacion: Personajes
-
-Responsabilidad:
-
-- Proveer informacion de personajes para resolver acciones y tiradas.
-- Servir de base para modificadores, recursos, capacidades y contexto narrativo individual.
-
-Uso esperado:
-
-- Consultar fichas, inventario, historia, conjuros y notas de campana cuando la resolucion lo requiera.
-
-### Recursos
-Ubicacion: Recursos
-
-Responsabilidad:
-
-- Reunir apoyo visual o material auxiliar de la campana.
-- Incluir mapas y otros recursos de referencia.
-
-Mapas:
-
-- Mapas
-
-Uso esperado:
-
-- Si una escena activa referencia un mapa, el usuario puede abrirlo como soporte durante la sesion.
-
-### Sesiones
-Ubicacion: Sesiones
-
-Responsabilidad:
-
-- Guardar continuidad historica de juego entre encuentros.
-- Permitir pausar y retomar sin perder estado narrativo.
-
-Archivo actual:
-
-- sesionActual.md
-
-Regla de cierre:
-
-- Al finalizar una sesion, se puede crear un nuevo archivo de sesion para registrar progreso y continuar despues.
+1. Prevalecen los puntos fijos de `LLM-PuntosFijos.md`.
+2. Luego prevalece `LLM-MecanicaResolucionDM.md` para decision base.
+3. Luego prevalece el documento especializado del caso (PvP, apoyo, grupal, coordenadas).
+4. `LLM-DM-FlujoJuegoResolucion.md` organiza el orden de uso y formato final.
 
 ---
 
 ## Flujo recomendado del agente DM
 1. Revisar estado actual en EscenaActiva y Sesiones.
-2. Aplicar LLM-EscenaFichaEstructura.md para crear/actualizar EscenaActiva y CampanaFichaEstructura antes de iniciar narracion.
-3. Consultar en Mds la regla operativa correspondiente al tipo de situacion.
-	Si hay mapa, distancia o posicion tactica, consultar LLM-CoordenadasDeEscena.md.
-4. Consultar Personajes para resolver modificadores y capacidades si hace falta.
-5. Narrar y resolver la accion con claridad mecanica y consecuencias.
-6. Actualizar la continuidad en escena y sesion segun corresponda.
-
----
-
-## Convencion practica de tiradas
-Por defecto, el jugador puede reportar resultado natural del dado.
-El agente DM debe:
-
-1. Revisar la informacion del personaje.
-2. Aplicar modificadores.
-3. Calcular resultado final.
-4. Resolver narrativamente el efecto.
-
-Solo pedir modificadores explicitos al jugador cuando falte informacion o exista duda.
-
----
-
-## Objetivo de este README
-Este archivo funciona como puerta de entrada para orientar al agente DM sobre:
-
-1. Que carpeta consultar primero.
-2. Que documento usar segun el problema.
-3. Como mantener consistencia entre reglas, escena activa y continuidad de sesion.
-
-Asi el agente puede enfocarse solo en los puntos necesarios para analizar y resolver cada momento de juego, sin desordenar el flujo de la partida.
+2. Aplicar `LLM-EscenaFichaEstructura.md` antes de narrar.
+3. Resolver accion con `LLM-MecanicaResolucionDM.md` y derivados segun caso.
+4. Consultar Personajes para modificadores y capacidades.
+5. Narrar con formato PF-10.
+6. Actualizar continuidad en escena y sesion.
