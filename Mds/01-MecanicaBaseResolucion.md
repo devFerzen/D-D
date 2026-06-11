@@ -1,6 +1,6 @@
 # Mecanica operativa de resolucion para DM (fuente base)
 
-Base canonica: `LLM-PuntosFijos.md`.
+Base canonica: `00-PuntosFijosCanonicos.md`.
 Este archivo desarrolla PF-01, PF-02, PF-03 y PF-04.
 
 ## Marco de decision corto

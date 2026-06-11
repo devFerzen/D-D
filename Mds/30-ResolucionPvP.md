@@ -1,6 +1,6 @@
 # Mecanica de conflicto entre jugadores (PvP)
 
-Base canonica: `LLM-PuntosFijos.md`.
+Base canonica: `00-PuntosFijosCanonicos.md`.
 Este archivo desarrolla PF-07 y aplica PF-04 y PF-10.
 
 ## Regla principal
@@ -22,5 +22,5 @@ Las tiradas sociales entre jugadores no obligan voluntad (PF-07).
 - Aplicar impacto narrativo y estado actualizado (PF-10).
 
 ## Referencias
-- Orden e iniciativa: `LLM-OrdenEIniciativa.md`
-- Flujo general DM: `LLM-DM-FlujoJuegoResolucion.md`
+- Orden e iniciativa: `10-OrdenTacticoIniciativa.md`
+- Flujo general DM: `02-FlujoDMOrquestacion.md`

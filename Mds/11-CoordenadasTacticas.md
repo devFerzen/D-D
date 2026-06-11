@@ -4,7 +4,7 @@
 
 El DM debe usar la matriz del mapa como sistema principal para ubicar personajes, enemigos, trampas, objetos interactuables y zonas importantes.
 
-Este sistema se aplica cuando la escena ya fue inicializada con el protocolo de `LLM-EscenaFichaEstructura.md`.
+Este sistema se aplica cuando la escena ya fue inicializada con el protocolo de `03-PrearranqueEscenaObligatorio.md`.
 
 La referencia oficial usa coordenadas tipo:
 

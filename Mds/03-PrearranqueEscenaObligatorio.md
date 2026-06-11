@@ -20,7 +20,7 @@ No se inicia narracion nueva si no existe una escena activa documentada y una fi
 2. `Personajes/` para datos jugables y situacion individual de cada personaje.
 3. `EscenaActiva/Templates/EscenaActiva.md` para crear el archivo de escena.
 4. `EscenaActiva/Templates/CampanaFichaEstructura.md` para estado global.
-5. `Mds/LLM-CoordenadasDeEscena.md` si la escena amerita mapa tactico.
+5. `Mds/11-CoordenadasTacticas.md` si la escena amerita mapa tactico.
 
 ---
 
@@ -52,7 +52,7 @@ No se inicia narracion nueva si no existe una escena activa documentada y una fi
 
 ### Paso 4. Decidir si aplica sistema de coordenadas
 
-Aplicar `LLM-CoordenadasDeEscena.md` cuando:
+Aplicar `11-CoordenadasTacticas.md` cuando:
 
 - importe distancia, alcance, cobertura o orden de movimiento,
 - existan trampas, objetos ocultos o enemigos escondidos,

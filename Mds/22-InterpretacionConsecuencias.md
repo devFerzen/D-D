@@ -1,8 +1,8 @@
 # Resultado de acciones y consecuencias
 
-Base canonica: `LLM-PuntosFijos.md`.
+Base canonica: `00-PuntosFijosCanonicos.md`.
 Este archivo desarrolla PF-02, PF-03 y PF-10.
-No redefine decision base (ver `LLM-MecanicaResolucionDM.md`).
+No redefine decision base (ver `01-MecanicaBaseResolucion.md`).
 
 ## Interpretacion post-tirada
 

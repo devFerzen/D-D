@@ -68,7 +68,7 @@ El DM debería dejar documentado, como mínimo:
 - nombre del personaje,
 - iniciativa u orden,
 - nombre del mapa en escena activa que se encuentra en /Recursos/Mapas
-- posición o lugar relevante (usar coordenada tipo E12 cuando aplique mapa, ver LLM-CoordenadasDeEscena.md),
+- posición o lugar relevante (usar coordenada tipo E12 cuando aplique mapa, ver 11-CoordenadasTacticas.md),
 - intención actual,
 - si ya actuó o sigue pendiente,
 - notas breves de estado.

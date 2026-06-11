@@ -1,6 +1,6 @@
 # Un jugador tira y otro ayuda
 
-Base canonica: `LLM-PuntosFijos.md`.
+Base canonica: `00-PuntosFijosCanonicos.md`.
 Este archivo desarrolla PF-06 y referencia PF-04.
 
 ## Regla central
@@ -17,7 +17,7 @@ El apoyo concede ventaja solo si es:
 - apoyo que en realidad es otra accion separada.
 
 ## Orden e iniciativa
-Si varias intervenciones compiten en el mismo instante, usar PF-04 y `LLM-OrdenEIniciativa.md`.
+Si varias intervenciones compiten en el mismo instante, usar PF-04 y `10-OrdenTacticoIniciativa.md`.
 
 ## Registro minimo en EscenaActiva
 - lider

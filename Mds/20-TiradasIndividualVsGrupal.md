@@ -1,6 +1,6 @@
 # Tiradas individuales y de grupo
 
-Base canonica: `LLM-PuntosFijos.md`.
+Base canonica: `00-PuntosFijosCanonicos.md`.
 Este archivo desarrolla PF-05 y referencia PF-04.
 
 ## Regla de seleccion
@@ -16,8 +16,8 @@ Usar tirada grupal cuando:
 - se busca resolucion agil compartida.
 
 ## Orden e iniciativa
-Si la escena es simultanea y el orden cambia el resultado, aplicar PF-04 y usar `LLM-OrdenEIniciativa.md`.
+Si la escena es simultanea y el orden cambia el resultado, aplicar PF-04 y usar `10-OrdenTacticoIniciativa.md`.
 
 ## Regla de no repeticion
 No volver a evaluar posible/incertidumbre/consecuencia aqui.
-Eso se decide en `LLM-MecanicaResolucionDM.md`.
+Eso se decide en `01-MecanicaBaseResolucion.md`.
