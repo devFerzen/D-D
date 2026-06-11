@@ -26,20 +26,80 @@ Este bloque evita narrativa infinita y fuerza cierre de escena.
 - **Referencia de arco principal en ficha global:** 
   - `EscenaActiva/CampañaFichaEstructura.md` sección de arco principal
 
+### Previsual de siguiente escena (referencia breve)
+- **Título tentativo de la siguiente escena:** 
+- **Conexión narrativa opcional 1:** 
+- **Conexión narrativa opcional 2:** 
+- **Conexión narrativa opcional 3:** 
+- **Condición para abrir esa escena:** 
+
 ---
 
 ## Sistema de Coordenadas de la Escena
 - **Escala fija:** 1 cuadro = 2 metros
 - **Formato canónico de coordenada:** letra + dos dígitos (ejemplo: A01, H08, U25)
-- **Límite estándar aplicado:** sí / no
-- **Si no aplica límite estándar, definir override:**
+- **Matriz activa de escena:**
   - **Filas habilitadas:** 
   - **Columnas habilitadas:** 
-  - **Motivo narrativo o táctico del override:** 
+  - **Motivo narrativo o táctico (si aplica):** 
 
 Notas:
-- Si no se declara override, usar matriz estándar (filas A-U y columnas 01-25).
+- Usar por defecto matriz estándar (filas A-U y columnas 01-25).
 - Mantener siempre el formato con dos dígitos en columnas de un solo número (01-09).
+
+### Mapeo táctico mínimo (obligatorio)
+- **Jugadores:**
+  - **Nombre:** 
+  - **Coordenada:** 
+
+- **Enemigos:**
+  - **Nombre:** 
+  - **Coordenada:** 
+
+- **NPC (si hay):**
+  - **Nombre:** 
+  - **Coordenada:** 
+
+- **Objetos interactuables:**
+  - **Nombre:** 
+  - **Coordenada:** 
+
+- **Trampas o peligros:**
+  - **Nombre:** 
+  - **Coordenada:** 
+
+- **Elementos ocultos DM (privado):**
+  - **Nombre:** 
+  - **Coordenada:** 
+
+---
+
+## Salida para prompt de imagen de jugadores (sin secretos)
+Este bloque es para copiar y pegar en otro chat de generacion de imagen.
+
+- **Descripcion de escena para imagen (solo visible para jugadores):** 
+- **Matriz final para imagen:**
+  - **Filas:** 
+  - **Columnas:** 
+- **Puertas y salidas visibles (coordenadas):** 
+- **Coberturas y obstaculos visibles (coordenadas):** 
+- **Objetos interactuables visibles (coordenadas):** 
+- **Zonas de peligro visibles (coordenadas):** 
+- **Rutas clave transitables (coordenadas):** 
+
+### Simbologia opcional para mapa de jugadores
+- **Usar simbologia visible:** si / no
+- **Incluir leyenda visible:** si / no
+- **Simbologia sugerida (solo elementos visibles):**
+  - **NPC visible:** N
+  - **Objeto interactuable visible:** O
+  - **Peligro visible:** !
+  - **Cobertura relevante:** #
+
+Reglas:
+- Nunca incluir elementos ocultos del DM en este bloque.
+- Si se usa simbologia, mantenerla simple y legible.
+- La leyenda debe listar solo simbolos visibles para jugadores.
 
 ---
 

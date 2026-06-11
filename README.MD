@@ -15,6 +15,7 @@ Cuando el agente necesite resolver una situacion, usar este orden:
 2. 01-MecanicaBaseResolucion.md
 3. 02-FlujoDMOrquestacion.md
 4. 03-PrearranqueEscenaObligatorio.md
+5. 04-GobernanzaMemoriaPersistencia.md
 
 **ESPECIALIZADAS (segun tipo de accion):**
 - Orden y tactica: 10-OrdenTacticoIniciativa.md, 11-CoordenadasTacticas.md
@@ -30,6 +31,7 @@ Cuando el agente necesite resolver una situacion, usar este orden:
 - Decision base: es posible/incierto/consecuencia: `01-MecanicaBaseResolucion.md`.
 - Como coordinar multiples LLM: `02-FlujoDMOrquestacion.md`.
 - Pre-arranque obligatorio de escena: `03-PrearranqueEscenaObligatorio.md`.
+- Gobernanza de memoria y persistencia: `04-GobernanzaMemoriaPersistencia.md`.
 
 **Tactica y orden:**
 - Orden, iniciativa y seguimiento: `10-OrdenTacticoIniciativa.md`.
@@ -42,6 +44,9 @@ Cuando el agente necesite resolver una situacion, usar este orden:
 
 **Especializado:**
 - Conflicto entre jugadores (PvP): `30-ResolucionPvP.md`.
+
+**Datos de personajes:**
+- Estructura de `Personajes/` y que leer por archivo: `Personajes/README.md`.
 
 ---
 

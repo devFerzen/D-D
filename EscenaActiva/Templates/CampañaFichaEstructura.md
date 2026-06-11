@@ -168,6 +168,7 @@ No es solo “CD”, sino qué tan dura o fácil está la situación actual.
 
 ## Notas globales para el DM
 - **Eventos pendientes:** 
+- **Preguntas abiertas para usuario (si bloquean decision):** 
 - **NPC relevantes fuera de escena:** 
 - **Consecuencias si el grupo se demora:** 
 - **Consecuencias si el grupo falla la escena actual:** 
