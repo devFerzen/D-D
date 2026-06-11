@@ -45,7 +45,7 @@ Si la escena requiere saber **quién actúa primero, quién está mejor posicion
 
 Esto no solo sirve para combate. También puede servir en escenas tensas, persecuciones, infiltraciones críticas o situaciones donde el turno de cada personaje importa de verdad.
 
-**Para informacion de orden ver la carpeta /EscenaActiva o su LLM-OrderEIniciativa.md. Para posicion, distancia y alcance en mapa, ver LLM-CoordenadasDeEscena.md.**
+**Para informacion de orden ver la carpeta /EscenaActiva o su LLM-OrdenEIniciativa.md. Para posicion, distancia y alcance en mapa, ver LLM-CoordenadasDeEscena.md.**
 ---
 
 ### 4. Decide el tipo de resolución

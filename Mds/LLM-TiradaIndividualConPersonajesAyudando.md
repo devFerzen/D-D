@@ -1,7 +1,7 @@
 # Un jugador tira y otro ayuda
 
 ## Regla principal
-Cuando un personaje **lidera una acción** y otro personaje **contribuye de forma útil, concreta y relevante**, el DM puede resolver la situación basado en **solo el personaje principal tire**, mientras el personaje de apoyo sera **otorga ventaja** o una mejora equivalente si su ayuda realmente cambia las probabilidades.
+Cuando un personaje **lidera una acción** y otro personaje **contribuye de forma útil, concreta y relevante**, el DM puede resolver la situación con **solo la tirada del personaje principal**, mientras el personaje de apoyo **otorga ventaja** o una mejora equivalente si su ayuda realmente cambia las probabilidades.
 
 La idea no es “dar ventaja porque sí”, sino verificar si la ayuda:
 
@@ -92,6 +92,8 @@ No toda ayuda concede ventaja. A veces la ayuda:
 
 ### 6. Decide si hace falta orden o iniciativa
 Si la escena tiene presión, simultaneidad o múltiples personajes actuando a la vez, el DM debe decidir si conviene fijar orden.
+
+Para criterios completos de orden e iniciativa, usar como referencia `LLM-OrdenEIniciativa.md`.
 
 Pide iniciativa si:
 
@@ -251,6 +253,60 @@ Estas frases ayudan a guiar sin decidir por los jugadores:
 
 **Regla de ritmo:**  
 si la ayuda es clara y útil, resuélvela rápido; si es ambigua, pide precisión breve y continúa.
+
+---
+
+## Registro de escena activa para acciones con apoyo
+
+Cuando haya un lider y un personaje de apoyo, el DM debe dejar registro minimo en `/EscenaActiva` para mantener continuidad entre turnos.
+
+### Que registrar
+- personaje lider,
+- personaje(s) de apoyo,
+- accion principal,
+- tipo de ayuda,
+- si da ventaja o no,
+- orden de actuacion si aplica,
+- posicion relevante,
+- proximo personaje en intervenir.
+
+### Cuando usar este registro
+- cuando un jugador dice que otro lo ayuda,
+- cuando una accion parece conjunta pero tiene un lider claro,
+- cuando el apoyo puede dar ventaja,
+- cuando hay varios personajes en la escena y se puede perder el seguimiento.
+
+### Plantilla sugerida
+````markdown name=EscenaActiva/apoyo-escena-activa.md
+# Escena activa: apoyo
+
+## Estado general
+- Tipo de escena:
+- Riesgo actual:
+- ¿Hay iniciativa?: sí / no
+
+## Acción principal
+- Líder:
+- Objetivo:
+- Habilidad o tirada prevista:
+
+## Apoyo
+- Personaje que ayuda:
+- Cómo ayuda:
+- ¿La ayuda es válida?: sí / no
+- ¿Concede ventaja?: sí / no
+- Motivo:
+
+## Orden de actuación
+1. Nombre — iniciativa/orden — posición — acción
+2. Nombre — iniciativa/orden — posición — acción
+
+## Seguimiento
+- Ya resolvieron:
+- Pendientes:
+- Próximo en actuar:
+- Cambio reciente:
+````
 
 ---
 

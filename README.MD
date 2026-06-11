@@ -32,13 +32,13 @@ Cuando el agente necesite resolver una situacion, debe priorizar lectura en Mds,
 2. LLM-MecanicaResolucionDM.md  
 	Marco mental de resolucion: posibilidad, coste, riesgo, presion y tipo de salida.
 
-3. LLM-OrderEIniciativa.md  
+3. LLM-OrdenEIniciativa.md  
 	Cuando usar orden estructurado o iniciativa y como hacer seguimiento.
 
 4. LLM-CoordenadasDeEscena.md  
 	Sistema de coordenadas para posicion, distancia, cobertura, trampas y rango tactico.
 
-5. LLM-TiradasIndividuales&Grupales.md  
+5. LLM-TiradasIndividualesYGrupales.md  
 	Criterios para tiradas individuales versus tiradas de grupo.
 
 6. LLM-TiradaIndividualConPersonajesAyudando.md  
@@ -47,11 +47,37 @@ Cuando el agente necesite resolver una situacion, debe priorizar lectura en Mds,
 7. LLM-ResultadoJugadores.md  
 	Como convertir intencion declarada en resultado narrativo y consecuencias.
 
-8. LLM-ApoyoResolucionCompartida.md  
-	Apoyo para escenas compartidas y claridad de contribuciones entre personajes.
+8. LLM-MecanicaResolucionPvP.md  
+	Reglas para conflicto entre jugadores, acciones enfrentadas y escalado a combate PvP.
 
 9. LLM-EscenaFichaEstructura.md  
 	Protocolo operativo de arranque: crear y llenar EscenaActiva y CampanaFichaEstructura antes de narrar.
+
+---
+
+## Si buscas X, abre Y (atajo rapido)
+
+- Si buscas el flujo general del DM y formato de resolucion, abre `LLM-DM-FlujoJuegoResolucion.md`.
+- Si buscas la mecanica base para decidir posible/imposible, coste, riesgo y presion, abre `LLM-MecanicaResolucionDM.md`.
+- Si buscas cuando usar orden estructurado o iniciativa, abre `LLM-OrdenEIniciativa.md`.
+- Si buscas coordenadas, distancias, cobertura o mapa tactico, abre `LLM-CoordenadasDeEscena.md`.
+- Si buscas criterio para tiradas individuales o de grupo, abre `LLM-TiradasIndividualesYGrupales.md`.
+- Si buscas acciones con lider y personaje de apoyo, abre `LLM-TiradaIndividualConPersonajesAyudando.md`.
+- Si buscas como convertir intencion en resultado narrativo y consecuencias, abre `LLM-ResultadoJugadores.md`.
+- Si buscas conflicto entre jugadores y escalado a PvP, abre `LLM-MecanicaResolucionPvP.md`.
+- Si buscas protocolo de arranque de escena y ficha de campana, abre `LLM-EscenaFichaEstructura.md`.
+
+---
+
+## Regla de precedencia entre LLM
+
+Para evitar solapamientos, usar esta prioridad cuando dos documentos parezcan cubrir lo mismo:
+
+1. Mecánica base de resolución: `LLM-MecanicaResolucionDM.md`.
+2. Interpretación de resultados y consecuencias: `LLM-ResultadoJugadores.md`.
+3. Flujo general y formato de respuesta del DM: `LLM-DM-FlujoJuegoResolucion.md`.
+
+Si hay conflicto entre redacciones, prevalece el documento de mayor prioridad en esta lista.
 
 ---
 
