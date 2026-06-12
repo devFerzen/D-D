@@ -47,8 +47,8 @@ Resumen rápido. El detalle completo vive en `/Personajes`.
 
 - **Nombre:** 
   - **Clase / nivel:** 
-  - **HP actual / máximo:** 
-  - **CA:** 
+  - **HP actual / máximo (obligatorio):** 
+  - **CA (obligatorio):** 
   - **Estado:** normal / herido / inconsciente / escondido / concentrando / etc.
   - **Posición en escena:** 
   - **Iniciativa actual:** 
@@ -57,8 +57,8 @@ Resumen rápido. El detalle completo vive en `/Personajes`.
 
 - **Nombre:** 
   - **Clase / nivel:** 
-  - **HP actual / máximo:** 
-  - **CA:** 
+  - **HP actual / máximo (obligatorio):** 
+  - **CA (obligatorio):** 
   - **Estado:** 
   - **Posición en escena:** 
   - **Iniciativa actual:** 

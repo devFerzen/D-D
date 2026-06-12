@@ -45,6 +45,12 @@ No se inicia narracion nueva si no existe una escena activa documentada y una fi
 	- trampas/peligros,
 	- elementos ocultos para DM.
 
+- Declarar el bloque "Amenazas activas de salvación" para cada enemigo, trampa o efecto que pueda forzar una tirada de salvación en esta escena.
+	- Incluir: fuente, stat de salvación, CD y efecto al fallar/superar.
+	- Sin este bloque declarado, no se permite improvisar CD ni stat mid-scene (PF-11).
+	- Referencia operativa: `Mds/23-TiradasSalvacion.md`.
+	- Condiciones canónicas: `Referencias/Condiciones-D5e.md`.
+
 - Dejar previsual minima de la siguiente escena con:
 	- titulo tentativo,
 	- 1 a 3 detalles opcionales de conexion narrativa.
@@ -54,6 +60,8 @@ No se inicia narracion nueva si no existe una escena activa documentada y una fi
 - Basarse en `EscenaActiva/Templates/CampanaFichaEstructura.md`.
 - Completar estado global del grupo, objetivo actual, presion y peligro.
 - Cargar personajes en escena con informacion sintetica tomada de `Personajes/`.
+- Campos minimos obligatorios por personaje cargado: nombre, clase/nivel, HP actual/maximo, CA, estado y posicion en escena.
+- Regla de bloqueo: si falta la CA de cualquier personaje en escena, no inicia narracion hasta completarla.
 - Para ubicar rapido que leer por personaje, usar `Personajes/README.md`.
 - Registrar posicion en escena e iniciativa cuando aplique.
 
@@ -144,7 +152,7 @@ Opcional:
 
 1. Escena activa creada o actualizada.
 2. CampanaFichaEstructura creada o actualizada.
-3. Personajes en escena cargados desde `Personajes/`.
+3. Personajes en escena cargados desde `Personajes/` con CA registrada para cada uno.
 4. Coordenadas definidas y mapeo minimo completo en toda escena.
 5. Separacion clara entre informacion visible de jugadores y datos ocultos del DM.
 6. Control narrativo validado: entrada clara, avance de arco y salida clara.

@@ -74,6 +74,20 @@ Notas:
 
 ---
 
+## Amenazas activas de salvación (privado DM)
+Declarar antes de iniciar la escena. Requerido por PF-11 y `03-PrearranqueEscenaObligatorio.md`.
+
+- **Fuente:** (nombre del enemigo / trampa / efecto)
+  - **Acción desencadenante:** 
+  - **Stat de salvación:** CON / DEX / SAB / INT / FUE / CAR
+  - **CD:** 
+  - **Efecto al fallar:** 
+  - **Efecto al superar:** 
+  - **¿Aplica toda la escena o turno específico?:** toda la escena / turno X
+  - **Referencia:** Referencias/Condiciones-D5e.md / SRD 5e
+
+---
+
 ## Salida para prompt de imagen de jugadores (sin secretos)
 Este bloque es para copiar y pegar en otro chat de generacion de imagen.
 

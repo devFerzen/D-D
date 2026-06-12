@@ -39,3 +39,8 @@ Responder en orden:
 2. Resultado
 3. Estado actualizado
 4. Tiradas requeridas
+
+## PF-11 - Salvaciones declaradas antes de narrar
+Si una amenaza externa (enemigo, trampa, efecto) puede forzar una tirada de salvación, el DM debe declarar stat, CD y efecto antes de resolver la escena.
+No se improvisa CD ni stat mid-scene.
+La fuente operativa es `23-TiradasSalvacion.md`.
